@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
             return -1;
         }
 
-        fd_dest = open(argv[2], O_WRONLY|O_CREAT, 0755);
+        fd_dest = open(argv[2], O_WRONLY|O_CREAT, 0755);//S_IRUSR|S_IWUSR
         if(fd_dest < 0){
             close(fd_src);
             perror("open argv[2]");
@@ -27,9 +27,9 @@ int main(int argc, char *argv[]){
         do{
             memset(buf,0,sizeof(buf));
             ret = read(fd_src, buf, sizeof(buf));
-            if(ret>0)
+            if(ret > 0)
                 write(fd_dest, buf, ret);
-        }while(ret >0);
+        }while(ret > 0);
 
         close(fd_src);
         close(fd_dest);
