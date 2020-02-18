@@ -6,4 +6,4 @@
   - [2](https://wenku.baidu.com/view/a7e54fc3aff8941ea76e58fafab069dc5122474c.html)
   - [3](https://wenku.baidu.com/view/843f7e3443323968011c92ca.html)
 
-- [GTK+ tutorial](http://zetcode.com/gui/gtk2/)
+- [GTK+2 tutorial](http://zetcode.com/gui/gtk2/)
