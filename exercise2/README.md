@@ -8,3 +8,4 @@
 
 ## source
 - [Linux 添加与删除内核](https://gitchat.csdn.net/activity/5ca372102db0d83fd5a25fb9)
+- [如何编译 Linux 内核](https://linux.cn/article-9665-1.html)
