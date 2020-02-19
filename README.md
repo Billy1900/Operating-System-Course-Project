@@ -7,3 +7,4 @@
   - [3](https://wenku.baidu.com/view/843f7e3443323968011c92ca.html)
 
 - [GTK+2 tutorial](http://zetcode.com/gui/gtk2/)
+- [GTK+3 tutorial](https://developer.gnome.org/gtk3/stable/gtk-getting-started.html)
