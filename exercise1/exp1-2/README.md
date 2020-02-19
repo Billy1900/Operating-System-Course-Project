@@ -1,0 +1,2 @@
+- 编译cir.cpp sum.cpp time.cpp三文件用｀g++ `pkg-config --cflags gtk+-3.0` -o cir cir.cpp `pkg-config --libs gtk+-3.0`　｀命令进行编译
+- 编译exp1-2.cpp（是主文件），g++ (filename) -o (name)即可
