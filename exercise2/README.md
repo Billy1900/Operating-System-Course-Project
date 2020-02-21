@@ -14,9 +14,9 @@
 
 
 ## Issue
+1. Unable to find the ncurses libraries or the required header files.
 <pre>
 我们在更新CentOS或者Ubuntu的内核时，执行make menuconfig可能看如这样的错误：
-
 *** Unable to find the ncurses libraries or the
 *** required header files.
 *** ‘make menuconfig’ requires the ncurses libraries.
@@ -29,4 +29,15 @@ yum install -y ncurses-devel
 
 Ubuntu：
 sudo apt-get install ncurses-dev
+</pre>
+
+2. openssl/opensslv.h: No such file or directory
+<pre>
+To fix this problem, you have to install OpenSSL development package, which is available in standard repositories of all modern Linux distributions.
+
+To install OpenSSL development package on Debian, Ubuntu or their derivatives:
+$ sudo apt-get install libssl-dev
+
+To install OpenSSL development package on Fedora, CentOS or RHEL:
+$ sudo yum install openssl-devel 
 </pre>
