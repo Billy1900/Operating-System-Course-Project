@@ -41,3 +41,16 @@ $ sudo apt-get install libssl-dev
 To install OpenSSL development package on Fedora, CentOS or RHEL:
 $ sudo yum install openssl-devel 
 </pre>
+
+3. Kernel 5.1-rc1 breaks bcwml DKMS build (at least on Ubuntu)
+<pre>
+**Problem:** 
+I noticed that in the list of commits that went into version 5.1-rc1, there is one by Linus Torvalds that says `get rid of legacy 'get_ds()' function`
+This function is used by DKMS on *buntu when building bcmwl, which is the non-free driver required by BCM 4352, e.g. on the Dell XPS 13 (9343) and some MacBooks, and some other Broadcom Wireless cards. I just tested it, and DKMS fails to build the module, with the following root error in the log:
+`
+/var/lib/dkms/bcmwl/6.30.223.271+bdcom/build/src/wl/sys/wl_cfg80211_hybrid.c:462:9: error: implicit declaration of function ‘get_ds’; did you mean ‘get_fs’? [-Werror=implicit-function-declaration]
+  set_fs(get_ds());
+         ^~~~~~
+         get_fs
+ `
+</pre>
