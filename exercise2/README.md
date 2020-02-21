@@ -11,3 +11,22 @@
 - [Linux 添加与删除内核](https://gitchat.csdn.net/activity/5ca372102db0d83fd5a25fb9)
 - [如何编译 Linux 内核](https://linux.cn/article-9665-1.html)
 - [Ubuntu下载指定内核镜像](https://blog.csdn.net/Ciellee/article/details/101059527)
+
+
+## Issue
+<pre>
+我们在更新CentOS或者Ubuntu的内核时，执行make menuconfig可能看如这样的错误：
+
+*** Unable to find the ncurses libraries or the
+*** required header files.
+*** ‘make menuconfig’ requires the ncurses libraries.
+***
+*** Install ncurses (ncurses-devel) and try again.
+
+解决办法如下：
+CentOS：
+yum install -y ncurses-devel
+
+Ubuntu：
+sudo apt-get install ncurses-dev
+</pre>
