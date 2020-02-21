@@ -64,3 +64,8 @@ So, I had a quick look at the diff (which I found through the Kernel website) an
 `#define get_ds()    (KERNEL_DS)`
 
 and now all instances of it are removed; in all instances where get_ds() was previously used, it was replaced with KERNEL_DS.
+
+
+### 4. 内核签名
+- [内核模块签名 secure boot(中文版)](http://blog.chinaunix.net/uid-27717694-id-3999307.html)
+- [内核模块签名 secure boot(英文版)](https://wiki.gentoo.org/wiki/Signed_kernel_module_support#)
