@@ -10,3 +10,4 @@
 # Source
 - [操作系统课程设计之二级文件系统演示](https://blog.csdn.net/huangqiang1363/article/details/50592633)
 - [模拟UNIX(linux)文件系统](https://www.cnblogs.com/jackytang/p/9150709.html)
+- [300来行代码带你实现一个能跑的最小Linux文件系统](http://news.eeworld.com.cn/mp/ymc/a71974.jspx)
