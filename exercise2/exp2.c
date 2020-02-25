@@ -13,7 +13,8 @@ asmlinkage int sys_mycall(char* sourceFile,char* destFile)
         }while(i > 0);
     }
     else {
-        return -1;
+       printf("open file (src & des) failed!\n"); 
+       return -1;
     }
     sys_close(source);
     sys_close(dest);
