@@ -4,6 +4,9 @@
 
 int main(int argc,char **argv){
     int i=syscall(436,argv[1],argv[2]);
-    printf("the result is %d",i);
+    if (i==1)
+      printf("succeed!\n");
+    else
+      printd("failed!\n");
     return 1;
 }
