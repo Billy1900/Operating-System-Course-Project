@@ -6,7 +6,8 @@
 - [GDK3 tutorial](https://developer.gnome.org/gdk3/stable/)
 - [Migrating from GTK+ 2.x to GTK+ 3](https://developer.gnome.org/gtk3/stable/gtk-migrating-2-to-3.html)
 - how to link gtk 3 in clion?
-write code in cmake as following:
+
+  write code in cmake as following:
 <pre>
 cmake_minimum_required(VERSION 3.2)
 project(SimpleCalculatorPro)
