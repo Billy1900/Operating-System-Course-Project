@@ -10,4 +10,4 @@
 - [用GTK编程实现简单的系统管理器](https://blog.csdn.net/creazyapple/article/details/7291572)
 
 # How to compile?
-<code> gcc \`pkg-config --cflags gtk+-2.0\` -o <output> <filename>  </code>
+Use the command `make`
