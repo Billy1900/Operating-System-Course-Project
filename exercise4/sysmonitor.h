@@ -4,8 +4,7 @@
 #include <dirent.h>
 #include <gtk/gtk.h>
 
-/* Set author face picture */
-#define AUTHOR "../PartIV-System_monitor/data/author.jpg"
+
 
 /* Global variables */
 GtkWidget *popup_window;
