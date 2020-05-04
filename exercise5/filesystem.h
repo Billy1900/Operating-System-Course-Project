@@ -33,7 +33,7 @@
 #define CAN_READ 0
 #define CAN_WRITE 1
 
-#define BUFFERFILE "/tmp/lnq_disk_buf"
+#define BUFFERFILE "lnq_disk_temp_buff"
 
 /* File system data structures */
 typedef struct super_block {
