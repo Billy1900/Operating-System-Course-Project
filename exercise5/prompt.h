@@ -30,7 +30,7 @@ void print_version() {
 
 /* Print usage messages */
 void print_usage(void) {
-  printf("Usage: ./test4 [options]\n");
+  printf("Usage: ./virtualsys [options]\n");
   printf("Options:\n");
   printf("\t-h: print this massges\n");
   printf("\t-p: hide the prompt\n");
