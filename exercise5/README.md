@@ -10,3 +10,10 @@
 # Source
 - [操作系统课程设计之二级文件系统演示](https://blog.csdn.net/huangqiang1363/article/details/50592633)
 - [模拟UNIX(linux)文件系统](https://www.cnblogs.com/jackytang/p/9150709.html)
+
+
+# How to make it work?
+```
+make
+./virtualsys //to make it work
+```
