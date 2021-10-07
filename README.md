@@ -29,3 +29,7 @@ add_definitions(${GTK3_CFLAGS_OTHER})
 add_executable(SimpleCalculatorPro SCP.cpp Calculator.cpp Calculator.h Arithmetics.cpp Arithmetics.h History.cpp History.h Interface.cpp Interface.h)
 target_link_libraries(SimpleCalculatorPro ${GTK3_LIBRARIES})
 </pre>
+
+
+## Supplementary
+- [《一个64位操作系统的设计与实现》学习笔记](https://github.com/yifengyou/The-design-and-implementation-of-a-64-bit-os)
